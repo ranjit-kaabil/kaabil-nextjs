@@ -31,7 +31,7 @@ const StudyModal = ({ isOpen, onClose }) => {
               Plan—Complete With Kaabil TAs Explanations On Your Virtual
               Blackboard!
             </p>
-            <a href="https://kaabil.me" className="study-try-now-btn">
+            <a href="https://app.kaabil.me/" className="study-try-now-btn">
               Try Kaabil.me Now
             </a>
           </div>

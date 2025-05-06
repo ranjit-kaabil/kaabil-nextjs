@@ -31,7 +31,7 @@ const NextGenModal = ({ isOpen, onClose }) => {
               End And Evolve As You Learn. So Every Session Feels Like A
               One-On-One Tutorial.
             </p>
-            <a href="https://kaabil.me" className="nextgen-try-now-btn">
+            <a href="https://app.kaabil.me/" className="nextgen-try-now-btn">
               Try Kaabil.me Now
             </a>
           </div>

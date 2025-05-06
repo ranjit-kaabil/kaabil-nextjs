@@ -32,7 +32,9 @@ const AISchoolsModal = ({ isOpen, onClose }) => {
               institutes can then deliver targeted support.
             </p>
             <div style={{ textAlign: "center" }}>
-              <button className="use-kaabil-btn">Use Kaabil.me Now</button>
+            <a href="https://app.kaabil.me/" className="math-try-now-btn">
+              Use Kaabil.me Now
+            </a>
             </div>
           </div>
           <div className="process-illustration">

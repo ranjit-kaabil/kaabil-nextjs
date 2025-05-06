@@ -33,7 +33,7 @@ const MathematicsModal = ({ isOpen, onClose }) => {
               Problem-Solving By Mastering The Students Logical Inference
               Process.
             </p>
-            <a href="https://kaabil.me" className="math-try-now-btn">
+            <a href="https://app.kaabil.me/" className="math-try-now-btn">
               Try Kaabil.me Now
             </a>
           </div>
