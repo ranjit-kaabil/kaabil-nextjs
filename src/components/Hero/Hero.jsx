@@ -73,7 +73,7 @@ const Hero = () => {
                       <h1 className="hero-title">Kaabil TAs</h1>
                       <div className="d-flex gap-4 hero-box-action-btn">
                         <button className="blue-btn" onClick={toggleContent}>
-                          Meet Us
+                          Say Hi
                         </button>
                         <button className="border-btn" onClick={scrollToJoin}>
                           Let's Study
@@ -82,8 +82,8 @@ const Hero = () => {
                     </>
                   ) : (
                     <>
-                      <p className="hero-subtitle">
-                        We are here to help you when any doubt arises
+                      <p className="hero-subtitle" style={{ fontSize: "40px" }}>
+                      Need help? We’re here whenever questions arise.
                       </p>
                       {/* <h1 className="hero-title">Kaabil TAs</h1> */}
                       <div
@@ -91,10 +91,10 @@ const Hero = () => {
                         style={{ marginTop: "20px" }}
                       >
                         <button className="blue-btn" onClick={toggleContent}>
-                          Meet Us
+                          Say Hi
                         </button>
                         <button className="border-btn" onClick={scrollToJoin}>
-                          Let's Explore
+                          Let's Study
                         </button>
                       </div>
                     </>

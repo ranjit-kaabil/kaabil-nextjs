@@ -22,7 +22,7 @@ const Join = () => {
       <div className="container-fluid">
         <div className="row">
           <div className="section-title_title">
-            <h2>Join a new way to learn</h2>
+            <h2>Find your Perfect Study Track with Kaabil TA</h2>
           </div>
         </div>
         <div className="row">

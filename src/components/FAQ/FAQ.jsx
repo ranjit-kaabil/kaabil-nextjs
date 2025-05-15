@@ -271,7 +271,7 @@ const FAQ = () => {
               <button className="talk_button">
                 <h4>
                   {" "}
-                  Talk to your <br />
+                  Explore Plans with us <br />
                   <span>Kaabil TA</span>
                 </h4>
               </button>

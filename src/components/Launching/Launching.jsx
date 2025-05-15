@@ -12,7 +12,7 @@ const Launching = () => {
     <section id="launching" className="launching-program-beta">
       <div className="container">
         <div className="section-title">
-          <h2>Launching 1-Month FREE Beta Program</h2>
+          <h2>LAUNCHING 1-MONTH FREE BETA PROGRAM FOR SCHOOLS</h2>
         </div>
 
         <div className="launching-program">
@@ -74,7 +74,7 @@ const Launching = () => {
           </div>
 
           <div className="kaabil-card">
-            <h2>Kaabil Learning</h2>
+            <h2>Kaabil AI Schools</h2>
             <h1>FREEE !!</h1>
             <ul className="feature-list">
               <li>
@@ -129,15 +129,14 @@ const Launching = () => {
               </li>
             </ul>
             <div className="text-center md-mt-4">
-            <Link
-              href="https://app.kaabil.me/dashboard"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <button className="start-learning-btn" >
-                Easy Demo Instant Setup
+              <button 
+                className="start-learning-btn"
+                onClick={() => {
+                  document.querySelector('footer').scrollIntoView({ behavior: 'smooth' });
+                }}
+              >
+                Book demo and free-setup
               </button>
-            </Link>
             </div>
           </div>
         </div>

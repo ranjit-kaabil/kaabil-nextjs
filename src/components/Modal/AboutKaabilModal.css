@@ -1,0 +1,132 @@
+.about-kaabil-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  animation: aboutKaabilFadeIn 0.3s ease forwards;
+}
+
+@keyframes aboutKaabilFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.about-kaabil-modal-content {
+  background: #FFFFFF;
+  border-radius: 32px;
+  padding: 40px;
+  max-width: 800px;
+  width: 95%;
+  position: relative;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  transform: translateY(20px);
+  animation: aboutKaabilSlideUp 0.3s ease forwards;
+  font-family: "Urbanist";
+}
+
+@keyframes aboutKaabilSlideUp {
+  from { transform: translateY(20px); }
+  to { transform: translateY(0); }
+}
+
+.about-kaabil-modal-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+}
+
+.about-kaabil-modal-text {
+  width: 100%;
+}
+
+.about-kaabil-modal-text h2 {
+  color: #FF6B00;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  font-family: "Urbanist";
+}
+
+.about-kaabil-modal-text p {
+  color: #4A5568;
+  font-size: 16px;
+  line-height: 1.8;
+  margin-bottom: 24px;
+  font-family: "Urbanist";
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
+
+.about-kaabil-try-now-btn {
+  display: inline-block;
+  background: #4361EE;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-family: "Urbanist";
+}
+
+.about-kaabil-try-now-btn:hover {
+  background: #3651D4;
+  transform: translateY(-2px);
+  color: white;
+}
+
+.about-kaabil-modal-close {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #666;
+  font-size: 20px;
+  transition: all 0.2s ease;
+  font-family: "Urbanist";
+}
+
+.about-kaabil-modal-close:hover {
+  background: rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .about-kaabil-modal-content {
+    padding: 24px;
+    margin: 16px;
+  }
+
+  .about-kaabil-modal-text h2 {
+    font-size: 28px;
+  }
+
+  .about-kaabil-modal-text p {
+    font-size: 15px;
+  }
+
+  .about-kaabil-try-now-btn {
+    width: 100%;
+    text-align: center;
+  }
+} 

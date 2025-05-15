@@ -58,33 +58,33 @@ const Challenge = () => {
     {
       title: 'Learners',
       points: [
-        'Struggle with self-doubt daily',
-        'Need clear custom lessons',
-        'Achievements to be counted'
+        'Feeling lost when errors go unexplained',
+        'Confidence dips after unanswered doubts',
+        'Unsure which topics need extra practice'
       ]
     },
     {
       title: 'Parents',
       points: [
-        'Limited time resources',
-        'Demand reliable support',
-        'Understand child progress consistently'
+        'Limited Time and Resources and need of Reliable Support',
+        'No consistent view on child’s day-to-day progress',
+        'Worry about hidden gaps in understanding'
       ]
     },
     {
       title: 'Teachers',
       points: [
-        'Overloaded with tasks daily',
+        'Manual lesson planning and grading overload',
         'Require efficient teaching aids',
-        'Need actionable timely insights'
+        'Insufficient one-on-one time for class'
       ]
     },
     {
       title: 'Institutes',
       points: [
-        'Demand streamlined processes',
-        'Require transparent performance metrics',
-        'Need for Immediate intervention'
+        'Fragmented, siloed student student data',
+        'No Unified Dashboard',
+        'Late identification of struggling students'
       ]
     }
   ];

@@ -10,7 +10,9 @@ const Excel = () => {
     <section id="excel" className="aply-excl">
       <div className="container position-relative">
         <div className="section-title_title">
-          <h2>Understand. Apply. Excel every day.</h2>
+          <h2 style={{ fontWeight: "bold" }}>
+            Understand, Apply, Excel Everyday.
+          </h2>
         </div>
         <div className="row">
           <div className="col-md-12">

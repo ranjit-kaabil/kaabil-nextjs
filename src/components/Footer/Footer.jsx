@@ -17,6 +17,7 @@ import StudyModal from "../Modal/StudyModal";
 import AISchoolsModal from "../Modal/AISchoolsModal";
 import WatchDemoModal from "../Modal/WatchDemoModal";
 import UnderConstructionModal from "../Modal/UnderConstructionModal";
+import AboutKaabilModal from "../Modal/AboutKaabilModal";
 
 const Footer = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -25,6 +26,7 @@ const Footer = () => {
   const [isAISchoolsModalOpen, setIsAISchoolsModalOpen] = useState(false);
   const [isWatchDemoModalOpen, setIsWatchDemoModalOpen] = useState(false);
   const [isUnderConstructionModalOpen, setIsUnderConstructionModalOpen] = useState(false);
+  const [isAboutKaabilModalOpen, setIsAboutKaabilModalOpen] = useState(false);
   const [email, setEmail] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState('');
@@ -188,7 +190,7 @@ const Footer = () => {
                           setIsUnderConstructionModalOpen(true);
                         }}
                       >
-                        Kaabil for Learners
+                        Kaabil for Learners (Releasing soon)
                       </a>
                     </li>
                   </ul>
@@ -231,7 +233,7 @@ const Footer = () => {
                           setIsAISchoolsModalOpen(true);
                         }}
                       >
-                        AI Schools
+                        <span style={{ fontWeight: "bold" }}>AI Schools</span>
                       </a>
                     </li>
                     <li>
@@ -273,6 +275,18 @@ const Footer = () => {
                         }}
                       >
                         Watch Demo !
+                      </a>
+                    </li>
+
+                    <li>
+                      <a
+                        href="#"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          setIsAboutKaabilModalOpen(true);
+                        }}
+                      >
+                       About Kaabil AI
                       </a>
                     </li>
                   </ul>
@@ -397,8 +411,7 @@ const Footer = () => {
               <div className="row">
                 <div className="col-12 text-center">
                   <p className="m-0">
-                    Kaabil is an early-stage pilot built to simplify learning
-                    and ensure equal opportunities for every child.
+                  Kaabil is an early-stage pilot created by IISc–IIMA grads, making learning simplified and accessible to every child.
                   </p>
                 </div>
               </div>
@@ -429,6 +442,10 @@ const Footer = () => {
       <UnderConstructionModal
         isOpen={isUnderConstructionModalOpen}
         onClose={() => setIsUnderConstructionModalOpen(false)}
+      />
+      <AboutKaabilModal
+        isOpen={isAboutKaabilModalOpen}
+        onClose={() => setIsAboutKaabilModalOpen(false)}
       />
     </>
   );

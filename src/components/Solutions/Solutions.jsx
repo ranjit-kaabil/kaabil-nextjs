@@ -20,11 +20,11 @@ const Solutions = () => {
       bgColor: "EDF6FD",
       content: {
         text: {
-          title: "Teachers Can Instantly Generate And Share Homework",
+          title: "Generate & Share Homework or Tests in Seconds",
           points: [
-            "Instantly Generate Curriculum-Aligned Questions",
-            "Convert Any PDF Into A Custom Computer-Based Test",
-            "Personalize Questions by Topic, Pattern, Difficulty, Pace, And Needs",
+            "Generate Curriculum-Aligned Questions Instantly, Share online or Print",
+            "Convert Any PDF into a Custom Computer-Based Test",
+            "Personalize by Topic, Difficulty, Pace & Student Needs",
           ],
         },
         image: solutionImg2,
@@ -36,12 +36,12 @@ const Solutions = () => {
       bgColor: "FEF1DA",
       content: {
         text: {
-          title: "Understand The Thought Behind Each Question Asked",
+          title: "Understand the Reasoning Behind Every Question Now",
           points: [
-            "No Answers Given Directly",
+            "Try First, Answer Later with Kaabil TA",
             "A Safe Space to Practice and Try each Question",
-            "Enjoy Freedom Of Learning",
-            "Track Lesson Strengths through Earned XP",
+            "Learn at Your Own Pace, Access progressive hints to guide thinking",
+            "Track progress through XP milestones.",
           ],
         },
         image: solutionImg,
@@ -53,12 +53,12 @@ const Solutions = () => {
       bgColor: "ECF7FF",
       content: {
         text: {
-          title: "No More Late Night Alone Problem Solving",
+          title: "Never Tackle Tough Questions Alone Now",
           points: [
-            "Ask your Kaabil TA any Doubt any Time in English or Hindi",
-            "Get Hints To Solve And Handy Tricks To Revise",
-            "Build Critical Thinking",
-            "Type, Talk or Upload PDF to receive Instant Feedback",
+            "Ask your Kaabil TA any question, anytime, in English or Hindi.",
+            "Receive targeted hints and quick revision tips",
+            "Develop your critical-thinking skills.",
+            "Type, talk, or upload a PDF to get instant feedback and solve through each problem",
           ],
         },
         image: solutionImg3,
@@ -70,11 +70,11 @@ const Solutions = () => {
       bgColor: "B5D5EB",
       content: {
         text: {
-          title: "Personalized Guidance & Recommendations",
+          title: "Data Driven Insights and Smart Recommendations",
           points: [
-            "Detailed Analysis Of Each Attempt Of The Question",
-            "Targeted Revision Tips For Every Lesson",
-            "Celebrate wins with Targeted Support and Correct Learning Gaps Early",
+            "See accuracy, time, and attempt analysis for each question.",
+            "Personalised tips that guide both practice and instruction",
+            "Identify strengths and gaps class and student wise at a glance",
           ],
         },
         image: solutionImg4,
